@@ -1,0 +1,25 @@
+{
+  "name": "context_fetch_mcp_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@10.7.1",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "mongoose": "^8.13.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
